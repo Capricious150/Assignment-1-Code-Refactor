@@ -1,0 +1,165 @@
+/* Define box behavior */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set primary background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Adds padding, colors, and defines fonts for elements within the Header wrapper */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Sets font size and display format for H1 tags within Header wrapper */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Sets font color for elements of the class "seo" which appear within H1 tags in the Header wrapper */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Formats the positioning of elements within Nav wrappers which appear within the Header wrapper.
+Given that there are no other Nav elements in Index, the inclusion of "Header" likely isn't necessary,
+but keeping it as-is allows for future Nav elements without this formatting */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Sets the style of Unordered Lists which appear within the Header wrapper. Could reasonably
+be changed to just updating <ul> tag without header or nav, as no other unordered lists appears
+within Index.html, but keeping it as-is allows for later lists without this formatting */
+header nav ul {
+    list-style-type: none;
+}
+
+/* Formats the positioning of List elements within unordered lists within the Header wrapper.
+Similar to the above, realistically this could be simplified down to just adjusting <li>, 
+but keeping it as-is allows for upwards scaling. */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Hides elements within the Footer, to match the mock-up. Preserves the original settings for SEO purposes */
+footer {
+    visibility: hidden;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Sets the Font Size of H2 tags within the Footer. Note that this is still a hidden element. */
+footer h2 {
+    font-size: 20px;
+}
+
+/* Sets the color of Anchor elements. Removes typical text-decoration for links. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Sets the font size of paragraphs. */
+p {
+    font-size: 16px;
+}
+
+/* Creates a defined height and width for the background image, with a margin on the bottom. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Class for left floats with a small right-hand margin */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Class for Right floats with a small left-hand margin */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Class for the Main elements of Index.html. Sets max width to 75% of display to leave room
+    for right-hand Aside element */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Creates size & space elements for Aside. Fits the Aside to the right-hand side of the display */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Defines text color and a bottom margin for elements with the class "benefit" */
+.benefit {
+    color: white;
+    margin-bottom: 20%;
+}
+
+/* Adds an extra bit of margin for H3 tags with the Benefit class. Aligns said tags to center */
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sets a max height for images with the Benefit class. Uses margin and display settings to
+    center them within their parent element */
+.benefit img {
+    max-height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Class "Content Main" for sections appearing within Main. Defines margins, heigh, padding,
+    fonts, text color, and background color for these sections */
+.ContentMain {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets a max height for images within the class ContentMain */
+.ContentMain img {
+    max-height: 200px;
+}
+
+/* Sets bottom margin and font size of H2 tags within ContentMain */
+.ContentMain h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
