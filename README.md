@@ -2,7 +2,7 @@
 
 ### To Run:
 
-Final page available at this URL: 
+Final page available at this URL: https://capricious150.github.io/Assignment-1-Code-Refactor/
 CSS was formatted for a Laptop display at 1366 x 768px Resolution, but should format correctly in 1920 x 1080px. Will not format correctly on mobile devices. 
 
 ### Code Refactor: 
